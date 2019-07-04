@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <style media="screen">
+       .form1{
+         background-color: grey;
+         width: 500px;
+         height:750px;
+         border: 1px solid red;
+         margin: auto;
+         }
+    h2 {
+       background-color:red;
+       color:white;
+       padding:10px;
+       text-align:center;
+       width: 482px;
+       margin:auto;
+    }
+
+    input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+       .username,.password1,.password2,.email,.firstname,.lastname,.container_signin{
+         padding: 13px;
+         font-size: 20px;
+       }
+       .fname,.lname{
+          margin: 30px;
+         }
+    </style>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form action="#" class="form1">
+
+      <div class="firstname">
+        <label for="fname"><b>First Name</b></label><br>
+        <input type="text" placeholder="Enter firstname" name="fname" required>
+      </div>
+
+      <div class="lastname">
+        <label for="lname"><b>Last Name</b></label><br>
+        <input type="text" placeholder="Enter lastname" name="lname" required>
+      </div>
+
+      <div class="username">
+        <label for="uname"><b>Username</b></label><br>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div class="password1">
+        <label for="psw1"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter Password" name="psw1" required>
+      </div>
+
+      <div class="password2">
+        <label for="psw2"><b>Confirm Password</b></label><br>
+        <input type="password" placeholder="Re-enter Password" name="psw2" required>
+      </div>
+
+      <div class="email">
+        <label for="email"><b>Email</b></label><br>
+        <input type="text" placeholder="Enter Email" name="email" required>
+      </div>
+      <div style="text-align:center">
+        <button type="submit" style="font-size:20px;color:white;background-color:skyblue;">SignUp</button>
+      </div>
+
+        <div class="container_signin"><br>
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+ </div>
+    </form>
+  </body>
+</html>

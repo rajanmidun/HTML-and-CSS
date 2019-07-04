@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table in html and css</title>
+  <style media="screen">
+    table,th,td{
+      border: 1px solid red;
+      border-collapse: collapse;
+    }
+    table
+    {
+      width: 200px;
+      height:100px;
+      margin: 0 auto;
+    }
+    td
+    {
+      text-align: center;
+      height: 50px;
+    }
+    div ~ p
+    {
+      background-color: yellow;
+    }
+    .check{
+      width:200px;
+      height:100px;
+      overflow-x:scroll;
+      clear:left;
+    }
+  </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><a href="#" style="color:black;"><b>Example</b></a></td>
+      </tr>
+      <tr>
+        <td>(x + y)<sup>2</sup> = x<sup>2</sup> + 2xy + y<sup>2</sup></td>
+      </tr>
+      <tr>
+        <td>Thank You</td>
+      </tr>
+    </table>
+    <select>
+       <option value="volvo">Volvo</option>
+       <option value="saab">Saab</option>
+       <option value="mercedes"> Mercedes </option>
+       <option value="audi">Audi</option>
+    </select>
+    <p>This is <Span style="color:green">afsdfsfs </span>f pargraph </p>
+      <div> <p>Paragraph 1 in the div.</p>
+           <p>Paragraph 2 in the div.</p>
+           <span><p>Paragraph 3 in the div.</p></span>
+          </div>
+          <p>Paragraph 4. Not in a div.</p>
+           <p>Paragraph 5. Not in a div.</p>
+   <div class="check">
+     <h2>herding</h2>
+
+     <p>fklwsjfsjkreiofjskrefkjldfjkldf
+     dsfjkldsejkfdkljrtijoefsdjifdkfldtreoijfdjfjklfrejrdfjkldfd
+   sfdjskrejkfkjlxfdjdlksfjklerjkldfjklfd
+ kjesfjkldfjkldfkljsdfkjlsdfklsjfkljsfkljsf
+sfdkjfklsjfjlksdfkljsflksjd</p>
+   </div>
+   <script>
+   if (confirm("Please confirm your choice"))
+   {
+      result = "You pressed OK!";
+ }
+   else { result = "You pressed Cancel!"; }
+   var name=prompt("Please enter your  name?","Rajan Midjn");
+   if(name!=null)
+    var greeting="Hello "+name;
+
+    document.write(greeting);
+   </script>
+  </body>
+</html>

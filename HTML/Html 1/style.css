@@ -1,0 +1,43 @@
+ body {
+                background-color: aliceblue;
+                color: red;
+            }
+            h1 {
+                text-align: center;
+                font-family: cursive;
+                font-size: 30px;
+                border: 1px solid blue;
+                background-color: skyblue;
+            }
+            h2{
+                background-color: rgb(255,56,89);
+            }
+table,td,th
+{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    height: 40px;
+    width: 30%;
+    padding: 30px;
+    background-color: white;
+    color:black;
+    
+}
+#p0 {
+    background-color: white;
+    color: black;
+}
+.rajan
+{
+    background-color: yellow;
+    color: white;
+}
+a:active
+{
+    background-color: red;
+    color: aliceblue;
+}
+a:hover{
+    background-color:green;
+    color: white;
+}

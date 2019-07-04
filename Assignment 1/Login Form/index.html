@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+       .form1{
+         background-color: grey;
+         width: 300px;
+         height:350px;
+         border: 1px solid red;
+         text-align: center;
+         margin: auto;
+         }
+    h2 {
+       background-color:red;
+       color:white;
+       padding:10px;
+       text-align:center;
+       width: 282px;
+       margin:auto;
+    }
+         .avatar{
+          height:90px;
+          width:80px;
+        }
+       .username,.password,.checkbox,.container{
+         padding: 10px;
+       }
+    </style>
+  </head>
+  <body>
+
+<h2 ">Login Form</h2>
+    <form action="#" class="form1">
+
+      <div class="imgcontainer">
+        <img src="LoginRed.jpg" alt="Login" class="avatar">
+      </div>
+
+      <div class="username">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+      </div>
+
+      <div class="password">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+
+      <div style="text-align:center">
+        <button type="submit">Login</button>
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container">
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </body>
+</html>
